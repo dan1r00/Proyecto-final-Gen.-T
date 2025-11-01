@@ -40,8 +40,6 @@ function renderClases(lista) {
   });
 }
 
-renderClases(clases);
-
 inputFiltro.addEventListener("input", () => {
   const valor = inputFiltro.value.toLowerCase();
   const filtradas = clases.filter(c =>
